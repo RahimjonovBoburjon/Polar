@@ -1,0 +1,753 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    min-width: 320px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 15 px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background: rgba(242, 206, 218, 0.3);
+}
+
+.header .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav .menu {
+    display: flex;
+}
+
+.header .nav .menu .list .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+    margin: 0 20px;
+    transition: 900ms;
+}
+
+.header .nav .menu .list .link:hover {
+    color: #d23166;
+    cursor: pointer;
+    text-shadow: 0 0 0.5px #d23166,
+        0 0 0.6px #d23166,
+        0 0 0.7px #d23166;
+}
+
+.header .nav .buy-btn {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    background: #d23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+}
+
+.header .nav .buy-btn:hover {
+    background: transparent;
+    color: #d23166;
+    border: 3px solid #d23166;
+}
+
+.hero {
+    background: rgba(242, 206, 218, 0.3);
+}
+
+.hero .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.hero .wrapper .left {
+    width: 59%;
+}
+
+.hero .wrapper .left .suptitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+
+.hero .wrapper .left .title {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+}
+
+.hero .wrapper .left .title span {
+    color: #d23166;
+}
+
+.hero .wrapper .left .subtitle {
+    width: 95%;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0F0101;
+    opacity: 0.6;
+    padding: 35px 0 50px;
+}
+
+.hero .wrapper .left .buy-btn {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    background: #d23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+}
+
+.hero .wrapper .left .buy-btn:hover {
+    background: transparent;
+    color: #d23166;
+    border: 3px solid #d23166;
+}
+
+.hero .wrapper .right {
+    width: 41%;
+}
+
+.hero .wrapper .right .img {
+    width: 100%;
+    transform: scale(1.3) translateX(40px);
+}
+
+.delivery .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 100px 0;
+}
+
+.delivery .wrapper .card {
+    width: 250px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    text-align: center;
+    padding: 35px 26px 28px;
+    transition: 500ms;
+}
+
+.delivery .wrapper .card:hover {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+    border-color: transparent;
+}
+
+.delivery .wrapper .card .title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    padding: 24px 0 9px;
+}
+
+.delivery .wrapper .card .subtitle {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.brown {
+    background: #F8EDF0;
+}
+
+.brown .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.brown .wrapper .left {
+    width: 58%;
+}
+
+.brown .wrapper .left .subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #150101;
+    opacity: 0.6;
+    padding: 16.04px 0 35.1px;
+}
+
+.brown .wrapper .left .title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57.33px;
+    line-height: 49px;
+    color: #150101;
+}
+
+.brown .wrapper .left .buy-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    background: #d23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+}
+
+.brown .wrapper .left .buy-btn:hover {
+    background: transparent;
+    color: #d23166;
+    border: 3px solid #d23166;
+}
+
+.brown .wrapper .right {
+    width: 42%;
+}
+
+.products .main-title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+    padding: 137px 0 64px;
+}
+
+.products .menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.products .list .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+.products .list .link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: transparent;
+    transition: 700ms;
+    margin: 4px auto;
+}
+
+.products .list .link:hover {
+    opacity: 1;
+}
+
+.products .list .link:hover::after {
+    width: 100%;
+    background: #d23166;
+}
+
+.products .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products .block .text-block-right {
+    text-align: right;
+}
+
+.products .block .text-block-right .prices {
+    justify-content: flex-end;
+}
+
+.products .block .img-block {
+    width: 50%;
+}
+
+.products .block .img-block .img {
+    width: 100%;
+}
+
+.products .block .text-block {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.products .block .text-block .title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.products .block .text-block .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    padding: 11px 0 34px;
+}
+
+.products .block .text-block .prices {
+    display: flex;
+    align-items: flex-end;
+}
+
+.products .block .text-block .prices .new-price {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.products .block .text-block .prices .old-prices {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    padding-left: 5px;
+}
+
+.products .block .text-block .buy-btn {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    background: #d23166;
+    border-radius: 5px;
+    padding: 11px 47px;
+    transition: 500ms;
+    border: 3px solid transparent;
+    transition: 500ms;
+}
+
+.products .block .text-block .buy-btn:hover {
+    background: transparent;
+    color: #d23166;
+    border: 3px solid #d23166;
+}
+
+.connect .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.connect .wrapper .left {
+    width: 40%;
+    padding-top: 200px;
+}
+
+.connect .wrapper .left .profil .test {
+    display: flex;
+}
+
+.connect .wrapper .left .profil .profil-text {
+    padding: 10px 21px 10px;
+}
+
+.connect .wrapper .left .profil .profil-text .text-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.connect .wrapper .left .profil .profil-text .text-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.connect .wrapper .left .profil .text-p1 .text-p11 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    padding: 50px 0 56px;
+}
+
+.connect .wrapper .left .profil .imgprofil-1 .img-1 {
+    padding: 0 0 216px;
+}
+
+.connect .wrapper .left .profil .imgprofil-1 .img-2 {
+    padding: 0 0 207px;
+    padding-left: 28px;
+}
+
+.connect .wrapper .left .profil .imgprofil-1 .img-3 {
+    padding: 0 0 194px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.connect .wrapper .left .profil .imgprofil-1 .img-4 {
+    padding: 0 0 206px;
+    padding-right: 28px;
+}
+
+.connect .wrapper .left .profil .imgprofil-1 .img-5 {
+    padding: 0 0 216px;
+}
+
+.connect .wrapper .right {
+    width: 50%;
+}
+
+.connect .wrapper .right .img-block .img {
+    width: 100%;
+}
+
+
+.downmenu {
+    background: #F8EDF0;
+}
+
+.downmenu .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px 0;
+}
+
+.downmenu .wrapper .right {
+    width: 50%;
+}
+
+.downmenu .wrapper .right .img02 {
+    padding: 20px 0 20px;
+}
+
+.downmenu .wrapper .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.downmenu .wrapper .subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    text-align: start;
+    padding: 20px 0 31px;
+}
+
+.downmenu .wrapper .right .table {
+    padding: 20px 0 31px;
+}
+
+.downmenu .wrapper .right .imglogo1 .img01 {
+    display: flex;
+}
+
+.downmenu .wrapper .right .imglogo1 .img01 .text1 {
+    padding-left: 10px;
+}
+
+.downmenu .wrapper .right .imglogo1 .img02 {
+    display: flex;
+}
+
+.downmenu .wrapper .right .imglogo1 .img02 .text2 {
+    padding-left: 10px;
+}
+
+
+.downmenu .wrapper .right .imglogo1 .img03 {
+    display: flex;
+}
+
+.downmenu .wrapper .right .imglogo1 .img03 .text3 {
+    padding-left: 10px;
+}
+
+
+.downmenu .wrapper .right .imgplay .play {
+    padding: 30px 0 0;
+}
+
+.downmenu .wrapper .left {
+    width: 40%;
+    transform: translateY(50px);
+    border-radius: 20px;
+}
+
+.downmenu .wrapper .left .img {
+    left: 22px;
+}
+
+
+.help .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 250px;
+    display: block;
+}
+
+.help .wrapper .text .text-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.help .wrapper .form {
+    width: 100%;
+    margin: 100px 0 17px;
+    display: flex;
+    border: 2px solid rgba(214, 67, 116, 0.5);
+    border-radius: 5px;
+}
+
+.help .wrapper .form .email {
+    width: 75%;
+    padding: 20px 32px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: transparent;
+    color: black;
+}
+
+.help .wrapper .form .btn {
+    width: 30%;
+    padding: 30px 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    background: #d23166;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer {
+    background: #0a0808;
+    padding: 70px 0 100px;
+}
+
+.footer .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .column {
+    width: 20%;
+}
+
+.footer .form-column {
+    width: 28%;
+}
+
+.footer .column .text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    transition: opacity 300ms;
+}
+
+.footer .column .text:hover {
+    opacity: 1;
+}
+
+.footer .column .socials .title {
+    margin: 10px 0 8px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.bottom .column .socials .icon-img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.bottom .form-column .form-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.bottom .form-column .form {
+    width: 100%;
+    margin: 13px 0 17px;
+    display: flex;
+    border: 2px solid rgba(214, 67, 116, 0.5);
+    border-radius: 5px;
+}
+
+.bottom .form-column .form .email {
+    width: 60%;
+    padding: 20px 32px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: transparent;
+    color: #fff;
+}
+
+.bottom .form-column .form .btn {
+    width: 40%;
+    padding: 16px 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    background: #d23166;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.feedback .text {
+    width: 350px;
+    position: relative;
+}
+
+.feedback .text .info {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    padding: 50px 0 56px;
+}
+
+.feedback .text .img-1 {
+    position: absolute;
+    left: -22px;
+    top: 2px;
+    padding: 50px 0 56px;
+}
+
+.feedback .text .img-2 {
+    position: absolute;
+    transform: rotateY(180deg);
+    bottom: 0;
+    top: 55px;
+    right: 80px;
+    padding: 50px 0 56px;
+}
